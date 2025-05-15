@@ -81,7 +81,7 @@
 
         togle1 {//Listo
             bindings = <&tog 1>;
-            key-positions = <13 14 15 16;
+            key-positions = <13 14 15 16>;
         };
 
         Desacer {//Listo
