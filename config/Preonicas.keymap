@@ -78,6 +78,16 @@
             bindings = <&kp DEL>;
             key-positions = <19 20>;
         };
+
+        togle1 {//Listo
+            bindings = <&tog 1>;
+            key-positions = <13 14 15 16;
+        };
+
+        Desacer {//Listo
+            bindings = <&kp LC(Z)>; 
+            key-positions = <37 38>;
+        };
 /* not
         Soft-Off {
             bindings = <&soft_off>;
