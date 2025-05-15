@@ -1,8 +1,10 @@
 {
+  "id": "Preonicas",
+  "name": "Preonicas",
   "keyboard_name": "ortho_5x12_all1u",
   "url": "",
   "maintainer": "TuNombre",
-  "width": 12.25,  // Ancho total: 12 teclas + 0.25u de separación
+  "width": 12,
   "height": 5,
   "layouts": {
     "LAYOUT_ortho_5x12": {
@@ -81,5 +83,6 @@
         {"label":"K59", "x":11.25, "y":4, "w":1, "h":1, "row":4, "col":11}
       ]
     }
-  }
+  },
+  "sensors": []
 }
