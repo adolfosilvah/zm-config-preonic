@@ -7,12 +7,12 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <layouts/common/ortho_5x12/all1u.dtsi>
+#include <layouts/common/ortho_5x12/split_0.25u.dtsi>  // Nuevo archivo de layout
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &layout_ortho_5x12_all1u;
+        zmk,physical-layout = &layout_ortho_5x12_split_0.25u;  // Actualizado
     };
 
     matrix_transform_50_all1u: keymap_transform_0 {
@@ -59,6 +59,6 @@
     };
 };
 
-&layout_ortho_5x12_all1u {
+&layout_ortho_5x12_split_0.25u {  // Actualizado
     transform = <&matrix_transform_50_all1u>;
 };

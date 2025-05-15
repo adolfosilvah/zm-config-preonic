@@ -4,10 +4,10 @@
   "keyboard_name": "ortho_5x12_all1u",
   "url": "",
   "maintainer": "TuNombre",
-  "width": 12,
+  "width": 12.25,
   "height": 5,
   "layouts": {
-    "LAYOUT_ortho_5x12": {
+    "LAYOUT_ortho_5x12_split_0.25u": {
       "layout": [
         // Primera mitad (columnas 0-5, x original)
         {"label":"K00", "x":0, "y":0, "w":1, "h":1, "row":0, "col":0},
@@ -84,5 +84,4 @@
       ]
     }
   }
-
 }
