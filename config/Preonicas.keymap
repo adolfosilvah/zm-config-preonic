@@ -27,6 +27,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>;
         };
+
+        borrarpalabra {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <31 32 33>;
+        };
     };
 
     keymap {
