@@ -1,3 +1,4 @@
+
 /*
  * Copyright (c) 2021 The ZMK Contributors
  *
@@ -56,4 +57,8 @@
             , <&pro_micro 1 GPIO_ACTIVE_HIGH>
             ;
     };
+};
+
+&layout_ortho_5x12_all1u {
+    transform = <&matrix_transform_50_all1u>;
 };
