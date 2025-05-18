@@ -122,9 +122,12 @@
             key-positions = <39 40>;
         };
 
-        Softoff {
-            bindings = <&Soft_off>;
-            key-positions = <0 11>;
+    soft_off_combo {
+        bindings = <&Soft_off>;
+        key-positions = <0 11>;
+        timeout-ms = <50>;            // Tiempo máximo para activar el combo
+        layers = <0>;                // Solo activo en la capa base
+        require-prior-idle-ms = <40>; // Evita activación accidental
         };
     };
 
