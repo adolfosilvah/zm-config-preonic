@@ -87,12 +87,7 @@
             key-positions = <37 38>;
         };
 
-        
-        Soft-Off {
-            bindings = <&Soft_off>;
-            key-positions = <0 11>;
-        };
-/* not
+        /* not
         btclear {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <1 4>;
@@ -125,6 +120,11 @@
         space {
             bindings = <&kp SPACE>;
             key-positions = <39 40>;
+        };
+
+        Softoff {
+            bindings = <&Soft_off>;
+            key-positions = <0 11>;
         };
     };
 
@@ -195,7 +195,7 @@
 &kp TAB       &kp Q        &kp W       &kp E             &kp R           &kp T             &kp Y             &kp U           &kp I             &kp O           &kp P                &kp BACKSPACE
 &kp CAPSLOCK  &Hm LCTRL A  &Hm LALT S  &Hm LEFT_SHIFT D  &Hm LEFT_GUI F  &kp G             &kp H             &Hm LEFT_GUI J  &Hm LEFT_SHIFT K  &Hm LEFT_ALT L  &Hm LCTRL SEMICOLON  &kp SQT
 &kp LSHFT     &kp Z        &kp X       &kp C             &kp V           &kp B             &Ene_ene          &kp M           &kp COMMA         &kp DOT         &kp FSLH             &mt RIGHT_ALT BACKSPACE
-&kp LCTRL     &kp Z        &mo 3      &kp LGUI          &mo 1           &mt LSHIFT ENTER  &mt LSHIFT SPACE  &mo 2           &mo 4             &trans          &trans               &trans
+&kp LCTRL     &trans       &trans      &kp LGUI          &mo 1           &mt LSHIFT ENTER  &mt LSHIFT SPACE  &mo 2           &mo 4             &trans          &trans               &trans
             >;
         };
 
@@ -274,7 +274,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        capa4 {
+        capa3 {
             if-layers = <1 2>;
             then-layer = <3>;
         };
